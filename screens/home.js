@@ -4,7 +4,7 @@ import Title from "../components/Title";
 const Home = ({ navigation }) => {
   return (
     <View style={styles.container}>
-      <Title />
+      <Title titleText="Quizzler" />
       <View style={styles.bannerContainer}>
         <Image
           source={{

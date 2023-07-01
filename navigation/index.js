@@ -19,7 +19,11 @@ const MyStack = () => {
         component={Quiz}
         options={{ headerShown: false }}
       />
-      <Stack.Screen name="Result" component={Result} />
+      <Stack.Screen
+        name="Result"
+        component={Result}
+        options={{ headerShown: false }}
+      />
     </Stack.Navigator>
   );
 };
